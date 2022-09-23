@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Organizar Times em Peladas
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciências da Computação - Trabalho Interdisciplinar: Aplicações Web
 
 ## Participantes
 
