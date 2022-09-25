@@ -132,23 +132,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
+![MontadorDePelada](https://user-images.githubusercontent.com/103541014/192166176-a89171fa-e4b4-495b-ab3c-69e90252099d.JPG)
+![Home](https://user-images.githubusercontent.com/103541014/192166177-8789c08e-67dc-4f61-aa9b-349e66d50e4f.JPG)
+![PáginaDoAtleta](https://user-images.githubusercontent.com/103541014/192166179-0d1bb377-fb14-41db-ad84-f8e493db9d26.JPG)
+![Página da quadra](https://user-images.githubusercontent.com/103541014/192166180-9b192514-789f-4999-a090-df98cb48c501.JPG)
+![MapaDeQuadras](https://user-images.githubusercontent.com/103541014/192166181-8a215ee5-9d16-4ce0-9fb7-040ef76bf560.JPG)
+![Login](https://user-images.githubusercontent.com/103541014/192166182-0b2cdc4c-7fa9-4c58-9793-b5660059eb91.JPG)
 
 # Metodologia
 
