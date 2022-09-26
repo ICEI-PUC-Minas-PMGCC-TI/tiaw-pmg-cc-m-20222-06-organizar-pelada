@@ -141,77 +141,50 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A metodologia usada por nosso grupo foi usar diversas ferramentas com auxílio para realizar o projeto, também dividimos o grupo em algumas fases no trabalho para dar mais facilidade. 
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O GitHub foi usado como repositório de código e onde também foi colocado todas as fases do projeto, como a apresentação, documentação e design thinking. 
+
+O miro foi utilizado para fazer todo o processo de design thinking. 
+
+O Flowmapp foi usado para fazer o Userflow e o MarvelApp foi utilizado para fazer o Wireframes. 
+
+Já o Word foi utilizado para fazer a documentação do projeto e o Power Point a apresentação dos slides. 
+
+O discord foi usado como meio de comunicação do grupo onde foi feito reuniões constantemente para discutimos o andamento do projeto, para a designação de tarefas e para fazermos partes do projeto online podendo conversar e mandar mensagens entre os componentes. 
+
+O grupo decidiu por fazer a maioria das tarefas online com a utilização das ferramentas e com comunicação via discord. 
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Além das funções definidas abaixo todos do grupo colaboraram em ideias para o projeto. 
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- Lucas Bigao – Design Thinking 
+- Pedro Bizzotto – Design Thinking 
+- Pedro Barros – Design Thinking 
+- Bruno Hermeto – Documentação e Apresentação 
+- Matheus Gonçalves – Documentação e Apresentação 
+- Daniel Guedes – Documentação e Apresentação 
 
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Processo de Design Thinking - Miro - https://miro.com/app/board/uXjVPXyB00s=/?share_link_id=817541521356 
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+Repositório de código - GitHub - https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-06-organizar-pelada 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+Documentação - Word - https://1drv.ms/w/s!AiJeZvDWk-2AqFtVQuy-IrKqGflN?e=WAluFu 
+
+Apresentação dos slides - Power Point - 
+
+UserFlow - FlowMapp - https://app.flowmapp.com/share/797614665d704b849b68d116a49676b8/userflow/200034/ 
+
+Comunicação do grupo - Discord - https://discord.gg/GdetgBWh 
+
+Wireframes - MarvelApp - https://marvelapp.com/whiteboard/RCKvuJyUxcnkPpXKNTHz 
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
 > A ferramenta de controle de versão adotada no projeto foi o
 > [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 > foi utilizado para hospedagem do repositório `upstream`.
@@ -229,16 +202,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > - `bugfix`: uma funcionalidade encontra-se com problemas
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
-
+> 
 # **############## SPRINT 1 ACABA AQUI #############**
 
 
