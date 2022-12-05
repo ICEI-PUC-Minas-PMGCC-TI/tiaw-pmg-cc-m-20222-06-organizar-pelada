@@ -1,5 +1,5 @@
 # Código do Projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
+Código do projeto na pasta sprint 04 oficial. 
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+URL do projeto publicado na web: https://peladeiros.brunohg53.repl.co/
