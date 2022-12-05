@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!--Cabecalho-->
+    <div class="container header">
+        <div class=" row">
+            <div class="col-12 navbar">
+                <div class="row">
+                    <img src="assets/PELADEIROS.png" width="150" height="100" class="logo">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="index.html">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="quemsomos.html">Quem Somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="quadra.html">Quadras</a>
+                                </li>
+                            </ul>
+                            <form id="formulario" class="form-inline my-2 my-lg-0">
+                                <input onchange="capturar()" id="valor" class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search" >
+                                <button id="busca" type="button" class="btn btn-danger" type="submit">Pesquisar</button>
+                            
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="conteudoprinc" class="container main">
+        <!--Carrossel-->
+        <div class="row">
+            <div class="col-12">
+                <h1> Peladeiros</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-12 carrousel">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/Quadra-de-Futebol-Society.jpg"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href>
+                                                    <h2 class="card-title">Melhores quadras em Belo Horizonte</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/pessoas jogando bola.jpg"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href>
+                                                    <h2 class="card-title">O melhor metodo para uma pelada de qualidade </h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/Labombonera.jpg"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href>
+                                                    <h2 class="card-title">Quadra La Bombonera tem um grande numero de peladas </h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/quadra-de-futebol-society-2.jpg"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href>
+                                                    <h2 class="card-title">Qual o tempo ideal para um pelada?</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/futebol-society-2.webp"
+                                                alt="foto Tom Cruise sorrindo">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href>
+                                                    <h2 class="card-title">Qual a quantidade certa de pessoas em uma pelada?</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------Cards Notícias------------------>
+        <div id="noticia" class=" elemento">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/quadra bh.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Quadra</h5>
+                      <p class="card-text">Melhores quadras na regiao de Belo Horizonte.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <footer>
+            <div class="text-center p-3" style="background-color:  rgb(170, 26, 26);">
+                <p class="footertext">Copyright 2022: Trabalho Interdiciplinar: Aplicações Web -
+                    <b>ICEI PUC MINAS</b>
+                  <p class="footertext">A favor de uma pelada de qualidade</p>
+                    <div class="container-fluid">
+                        <img id="imgRodape" class="navbar-brand" src="assets/PELADEIROS.png" alt="logo">
+                </p>
+            </ul>
+            </div>
+        </footer>
+         <script src="./scripts/search.js"></script>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+            </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+            </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>

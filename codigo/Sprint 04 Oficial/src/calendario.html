@@ -1,0 +1,148 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="calendario.css">
+  <title>Marcar Pelada</title>
+  <link rel="icon" href="logo.png">
+  <link rel="shortcut icon" href="logo.png">
+</head>
+
+<body>
+  <div class="mobile-header z-depth-3">
+
+    <div class="row">
+      <div class="col-2">
+        <a href="#" data-activates="sidebar" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <div class="col-">
+        <h4>Menu</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="main-wrapper">
+
+    <div class="sidebar-wrapper z-depth-2 side-nav fixed" id="sidebar">
+      <div class="cabecalho">
+        <nav>
+          <a href="pessoasQuadra.html">Voltar</a>
+        </nav>
+      </div>
+      <div class="sidebar-title">
+        <h4>Peladas</h4>
+        <h5 id="eventDayName">Data</h5>
+      </div>
+      <div class="sidebar-events" id="sidebarEvents">
+        <div class="empty-message">Nenhuma pelada marcada para hoje.</div>
+      </div>
+
+    </div>
+
+    <div class="content-wrapper">
+      <div class="container">
+
+        <div class="calendar-wrapper z-depth-2">
+
+          <div class="header-background">
+            <div class="calendar-header">
+
+              <a class="prev-button" id="prev">
+                <i class="material-icons">keyboard_arrow_left</i>
+              </a>
+              <a class="next-button" id="next">
+                <i class="material-icons">keyboard_arrow_right</i>
+              </a>
+
+              <div class="row header-title">
+
+                <div class="header-text">
+                  <h3 id="month-name">Fevereiro</h3>
+                  <h5 id="todayDayName">Hoje é 7 de Fevereiro</h5>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="calendar-content">
+            <div id="calendar-table" class="calendar-cells">
+
+              <div id="table-header">
+                <div class="row alinhar">
+                  <div class="col dia">Seg</div>
+                  <div class="col dia">Ter</div>
+                  <div class="col dia">Qua</div>
+                  <div class="col dia">Qui</div>
+                  <div class="col dia">Sex</div>
+                  <div class="col dia">Sab</div>
+                  <div class="col dia">Dom</div>
+                </div>
+              </div>
+
+              <div id="table-body" class="col">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="calendar-footer">
+            <div class="emptyForm" id="emptyForm">
+              <h4 id="emptyFormTitle">Nenhuma pelada.</h4>
+              <a class="addEvent" id="changeFormButton">Marcar pelada.</a>
+            </div>
+            <div class="addForm" id="addForm">
+              <h4>Marcando nova pelada</h4>
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="eventTitleInput" type="text" class="validate">
+                  <label for="eventTitleInput">Nome da pelada.</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="eventDescInput" type="text" class="validate">
+                  <label for="eventDescInput">Descrição.</label>
+                </div>
+              </div>
+
+              <div class="addEventButtons">
+                <a class="waves-effect waves-light btn " id="addEventButton">Marcar</a>
+                <a class="waves-effect waves-light btn grey lighten-2" id="cancelAdd">Cancelar</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script
+  src="https://kit.fontawesome.com/f9e19193d6.js"
+  crossorigin="anonymous"
+></script>
+  <script src="calendario.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(".button-collapse").sideNav();
+  </script>
+</body>
+
+</html>

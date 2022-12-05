@@ -1,0 +1,70 @@
+#navegacao{
+    background-color: rgb(170, 26, 26);
+    height: 100px;
+}
+#imagem{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+#nomeQuadra{
+    font-size: 35px;
+}
+#tipoBusca{
+    font-size: 20px;
+}
+#tipoBuscaAtiva {
+    font-size: 21px;
+}
+#filtroPosicao {
+    margin: 5px;
+}
+#filtroHabilidade {
+    margin: 5px;
+    margin-right: 50px;
+}
+#filtro {
+    font-size: 20px;
+    margin: 5px;
+    margin-right: 10px;
+}
+#card {
+    margin: 5px;
+    border: solid;
+    width: 750px;
+}
+#filtroPos {
+    background-color: rgb(170, 26, 26);
+    border: rgb(170, 26, 26);
+}
+#pos{
+    background-color: white;
+    border: white;
+    text-align: justify;
+}
+#filtroHab {
+    background-color: rgb(170, 26, 26);
+    border: rgb(170, 26, 26);
+}
+.filtros {
+    margin: 5px;
+}
+#botaoVerPerfil {
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#cardVerPerfil {
+    height: 100%;
+    width: 100%;
+}
+#voltar{
+    font-size: 25px;
+}
+#imgRodape{
+    height: 250px;
+    width: 250px;
+}
+footer{
+    color: black;
+}
